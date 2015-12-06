@@ -1,0 +1,22 @@
+{
+  "name": "ES2015-ava-test",
+  "version": "1.0.0",
+  "description": "ES2015 with AVA test runner",
+  "homepage": "`",
+  "author": "Antoine Duvillier <duvillierantoine@gmail.com> (https://github.com/duvillierA)",
+  "files": [
+    "dist"
+  ],
+  "main": "test/index.js",
+  "keywords": [],
+  "scripts": {
+    "test": "ava test/index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "babel-core": "^5.5.0",
+    "delay": "^1.1.0"
+  },
+  "repository": "git@github.com:duvillierA/ES2015-ava-test.git"
+}
